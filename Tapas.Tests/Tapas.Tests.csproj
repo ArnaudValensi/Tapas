@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{ECA3E0F4-A768-4D59-A6ED-6406493BBF55}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SharpTap</RootNamespace>
-    <AssemblyName>SharpTap</AssemblyName>
+    <RootNamespace>Tapas</RootNamespace>
+    <AssemblyName>Tapas</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -35,5 +35,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <Import Project="..\Tapas\Tapas.projitems" Label="Shared" Condition="Exists('..\Tapas\Tapas.projitems')" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

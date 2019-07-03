@@ -1,7 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTap", "SharpTap\SharpTap.csproj", "{ECA3E0F4-A768-4D59-A6ED-6406493BBF55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tapas.Tests", "Tapas.Tests\Tapas.Tests.csproj", "{ECA3E0F4-A768-4D59-A6ED-6406493BBF55}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tapas", "Tapas\Tapas.shproj", "{017C234F-166F-478B-AF6E-06B853137E80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
