@@ -153,6 +153,7 @@ namespace Tapas
         }
 
         Console.WriteLine($"ok {TapasRunner.nbTests} should throw the expected exception");
+        TapasRunner.passedTests++;
         return e;
       }
 
