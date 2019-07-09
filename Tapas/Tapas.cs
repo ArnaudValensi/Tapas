@@ -114,7 +114,7 @@ namespace Tapas
     public static void Equal(object expected, object actual) {
       TapasRunner.nbTests++;
 
-      if (expected.Equals(actual)) {
+      if ((expected == null && actual == null) || expected.Equals(actual)) {
         Console.WriteLine($"ok {TapasRunner.nbTests} should be equal");
         TapasRunner.passedTests++;
       } else {
